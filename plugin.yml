@@ -1,0 +1,25 @@
+name: Cat-Tastrophe
+main: cattastrophe.Cattastrophe
+version: 0.0.0.1
+authors: [Murder_is_Tasty]
+depend: []
+softdepend: []
+
+commands:
+    cattastrophe:
+        description: Enable or disable the plugin
+        usage: |
+               /cattastrophe [enable/disable]
+        permission: cattastrophe.cmd
+    cat:
+        description: Enable or disable the plugin
+        usage: |
+               /cat [enable/disable]
+        permission: cattastrophe.cmd
+permissions:
+    cattastrophe.use:
+        description: Spawns Ocelots based on players chat messages
+        default: true
+    cattastrophe.cmd:
+        description: Allows player to turn plugin on and off
+        default: op
